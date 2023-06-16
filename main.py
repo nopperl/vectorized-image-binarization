@@ -1,20 +1,14 @@
 #!/usr/bin/env python3
 from argparse import ArgumentParser
-from os.path import splitext
-
-from collections import OrderedDict
-from time import time
-import cv2
-from PIL import Image
-from matplotlib import pyplot as plt
-import numpy as np
-import skimage
-from sklearn.decomposition import PCA
-import sklearn.metrics
 from glob import glob
 from os import makedirs
-from os.path import join
-import pandas as pd
+from os.path import join, splitext
+
+import cv2
+from collections import OrderedDict
+import numpy as np
+import skimage
+import sklearn.metrics
 
 
 
